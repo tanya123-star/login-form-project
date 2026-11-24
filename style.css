@@ -1,12 +1,12 @@
-/* style.css - dark minimal */
+/* style.css - minimal */
 :root {
-  --bg: #0b1220;
-  --card: #111827;
-  --border: #1f2937;
-  --text: #e5e7eb;
-  --muted: #9ca3af;
-  --accent: #e5e7eb;
-  --accent-hover: #d1d5db;
+  --bg: #f9fafb;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --text: #111827;
+  --muted: #6b7280;
+  --accent: #111827;
+  --accent-hover: #374151;
   --radius: 8px;
 }
 
@@ -35,22 +35,17 @@ body {
 h1 { margin: 0 0 .25rem; font-size: 1.5rem; font-weight: 600; }
 .subtitle { margin: 0 0 1.5rem; color: var(--muted); font-size: .9rem; }
 
-form { display: grid; gap: .75rem; }
+form { display: grid; gap: 1rem; }
+.field { display: grid; gap: .35rem; }
 
-label {
-  display: block;
-  font-size: .8rem;
-  font-weight: 500;
-  color: var(--muted);
-  margin-bottom: .25rem;
-}
+label { font-size: .8rem; font-weight: 500; color: var(--muted); }
 
 input {
   width: 100%;
   padding: .65rem .8rem;
   border: 1px solid var(--border);
   border-radius: 6px;
-  background: #0b1220;
+  background: #fff;
   color: var(--text);
   font-size: 1rem;
   font-family: inherit;
@@ -67,7 +62,7 @@ button {
   border: none;
   border-radius: 6px;
   background: var(--accent);
-  color: #0b1220;
+  color: #fff;
   font-size: 1rem;
   font-weight: 500;
   font-family: inherit;
